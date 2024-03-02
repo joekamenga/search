@@ -3,18 +3,17 @@ $color: white;
 *{
     background-color: white;
 }
-#grid{
-    background-color: $color;
-                display: grid;
-                padding: 20px;
-                grid-column-gap: 9px;
-                grid-row-gap: 10px;
-                grid-template-columns: 50px 50px auto;
+#container{
+        background-color: $color;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        margin: 5px;
                 a{
                     color: black;
                 }
-            }
-.grid_item1{
+}
+.item1{
     color: $color;
     
 }

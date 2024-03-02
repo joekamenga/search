@@ -2,18 +2,17 @@
   background-color: white;
 }
 
-#grid {
+#container {
   background-color: white;
-  display: grid;
-  padding: 20px;
-  grid-column-gap: 9px;
-  grid-row-gap: 10px;
-  grid-template-columns: 50px 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 5px;
 }
-#grid a {
+#container a {
   color: black;
 }
 
-.grid_item1 {
+.item1 {
   color: white;
 }/*# sourceMappingURL=index.css.map */
