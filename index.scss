@@ -15,6 +15,40 @@ $color: white;
 }
 .item1{
     color: $color;
+    font-size: 12px;
+    padding: 2px;
+    margin: 0 10px;
+}
+.item2{
+    color: $color;
+    font-size: 12px;
+    padding: 2px;
+    margin: 0 10px;
     
+}
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    height: 100%;
+    width: 100px;
+    input [type="text"]{
+        position: relative;
+        height: 60px;
+        width: 100%;
+        margin: 100px;
+        padding: 50px;      
+    }
+    input [type="submit"]{
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        margin: 100px;
+        padding: 19px;
+        border: 1px solid black;
+    }
 }
 
