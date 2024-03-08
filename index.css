@@ -28,7 +28,7 @@
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: Arial;
   font-size: 50px;
   text-align: center;
 }
@@ -39,17 +39,19 @@ form {
   width: 100px;
 }
 form input [type=text] {
-  position: relative;
-  height: 60px;
-  width: 100%;
-  margin: 100px;
-  padding: 50px;
+  width: 740px;
+  margin: 2px auto;
+  margin: auto;
+  border: solid black;
+  height: 1000px;
+  page-break-after: avoid;
 }
 form input [type=submit] {
   position: absolute;
+  text-align: center;
   height: 60px;
   width: 100%;
   margin: 100px;
   padding: 19px;
-  border: 1px solid black;
+  border: 3px ridge #080100;
 }/*# sourceMappingURL=index.css.map */
