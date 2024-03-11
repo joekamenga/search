@@ -37,19 +37,20 @@ form {
   text-align: center;
   height: 100%;
   width: 100px;
+  margin: center;
 }
 form input [type=text] {
-  position: relative;
-  height: 60px;
+  height: 100px;
   width: 100%;
-  margin: 100px;
+  margin: center;
   padding: 50px;
+  border: 0.5px solid black;
+  border-radius: 20px;
 }
 form input [type=submit] {
-  position: absolute;
-  height: 60px;
+  height: 100px;
   width: 100%;
-  margin: 100px;
-  padding: 19px;
+  margin: center;
+  padding: auto;
   border: 1px solid black;
 }/*# sourceMappingURL=index.css.map */
