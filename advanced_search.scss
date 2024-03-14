@@ -367,6 +367,12 @@
             color: #fff;
             padding: 0 12px;
             margin: 10px 0; 
+            input[type="submit" i]{
+                appearance: auto;
+                box-sizing: border-box;
+                padding-block: 1px;
+                padding-inline: 2px;
+            }
         }
         .submit-buttonj{
             border-radius: 2px;
