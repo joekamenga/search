@@ -11,19 +11,22 @@
     min-width: 200px;
     width: 96%;
     margin: 40px 2% 0 45px;
-    .group-field{
-        float: left;
-        display: block;
-        min-width: 167px;
-        width: 16%;
-        font-size: 16px;
-        min-height: 42px;
-        font-weight: 500;
-        color: #333;
-        .field{
-            height: 30px;
-            display: table-cell;
-            vertical-align: middle;
+    .group1{
+        clear: both;
+        .group-field{
+            float: left;
+            display: block;
+            min-width: 167px;
+            width: 16%;
+            font-size: 16px;
+            min-height: 42px;
+            font-weight: 500;
+            color: #333;
+            .field{
+                height: 30px;
+                display: table-cell;
+                vertical-align: middle;
+            }
         }
     }
 }
@@ -34,67 +37,345 @@
     min-height: 41px;
     width: 50%;
 }
-.group-option1{
-    float: left;
-    display: block;
-    min-width: 167px;
-    width: 16%;
-    height: 42px;
-    color: #222;
-    font-size: 13px;
-    line-height: 16px;
-}
-.group-input1{
-    float: left;
-    display: block;
-    min-width: 167px;
-    min-height: 41px;
-    width: 50%;
-    .input1{
-        padding-right:16px;
-        .text-input1{
-            width: 100%;
-            text-align: left;
-        }
+.group2{
+    clear: both;
+    .group-option1{
+        float: left;
+        display: block;
+        min-width: 167px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
     }
-}
-.group-option2{
-    float: left;
-    display: block;
-    min-width: 167px;
-    width: 16%;
-    height: 42px;
-    color: #222;
-    font-size: 13px;
-    line-height: 16px;
-    .option2{
-        height: 30px;
-        display: table-cell;
-        vertical-align: middle;
-    }
-}
-.group-input2{
-    float: left;
-    display: block;
-    min-width: 167px;
-    min-height: 41px;
-    width: 50%;
-    .input2{
-        padding-right: 16px;
-        .text-input2{
-            border-radius: 1px;
-            border: 1px solid #c0c0c0;
-            font-size: 13px;
-            height: 25px;
-            padding: 1px 8px;
-            input[type=text]{
+    .group-input1{
+        float: left;
+        display: block;
+        min-width: 167px;
+        min-height: 41px;
+        width: 50%;
+        .input1{
+            padding-right:16px;
+            .text-input1{
                 width: 100%;
                 text-align: left;
             }
-            input[type="text" i]{
-                padding-block: 1px;
-                padding-inline: 2px;
+        }
+    }
+}
+.group3{
+    clear: both;
+    .group-option2{
+        float: left;
+        display: block;
+        min-width: 167px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+        .option2{
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    .group-input2{
+        float: left;
+        display: block;
+        min-width: 167px;
+        min-height: 41px;
+        width: 50%;
+        .input2{
+            padding-right: 16px;
+            .text-input2{
+                border-radius: 1px;
+                border: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                padding: 1px 8px;
+                input[type=text]{
+                    width: 100%;
+                    text-align: left;
+                }
+                input[type="text" i]{
+                    padding-block: 1px;
+                    padding-inline: 2px;
+                }
+                input{
+                    text-rendering: auto;
+                    color: fieldtext;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    line-height: normal;
+                    text-transform: none;
+                    text-indent: 0px;
+                    text-shadow: none;
+                    display: inline-block;
+                    appearance: auto;
+                    -webkit-rti-ordering: logical;
+                    cursor: text;
+                    background-color: field;
+                    margin: 0em;
+                }
             }
+        }
+    }
+    .group-hidden1{
+        float: left;
+        width: 32%;
+        min-width: 160px;
+        margin: 0 0 8px 1%;
+        color: #555;
+        font-size: 11px;
+        padding-left: 5px;
+        vertical-align: middle;
+        position: relative;
+        .hidden1{
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            .hidden-word1{
+                color: #666;
+                font-family: monospace;
+                font-size: 11px;
+                white-space: pre;
+            }
+        } 
+    }
+}
+.group4{
+    clear: both;
+    .group-option3{
+        float: left;
+        display: block;
+        min-width: 167px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+        .option3{
+            display: table-cell;
+            height: 30px;
+            vertical-align: middle;
+        }
+    }
+    .group-input3{
+        float: left;
+        display: block;
+        min-width: 167px;
+        min-height: 41px;
+        .input3{
+            padding-right: 16px;
+            .text-input3{
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                padding: 1px 8px;
+                input{
+                    text-rendering: auto;
+                    color: fieldtext;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    line-height: normal;
+                    text-transform: none;
+                    text-indent: 0px;
+                    text-shadow: none;
+                    display: inline-block;
+                    appearance: auto;
+                    -webkit-rti-ordering: logical;
+                    cursor: text;
+                    background-color: field;
+                    margin: 0em;
+                    input[type=text]{
+                        width: 100%;
+                        text-align: left;
+                    }
+                    input[type="text" i]{
+                        padding-block: 1px;
+                        padding-inline: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .group-hidden2{
+        float: left;
+        width: 32%;
+        min-width: 160px;
+        margin: 0 0 8px 1%;
+        color: #555;
+        font-size: 11px;
+        padding-left: 5px;
+        vertical-align: middle;
+        position: relative;
+        @media(max-width: 1056px){
+            .group-hidden2{
+                display: none  ! important;
+            }
+        }
+        .hidden2{
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            .hidden-word2{
+                color: #666;
+                font-family: monospace;
+                font-size: 11px;
+                white-space: pre;
+            }
+        }
+    }
+}
+.group5{
+    clear: both;
+    .group-option4{
+        float: left;
+        display: block;
+        min-width: 167px;
+        width: 16px;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+        .option4{
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    .group-input4{
+        float: left;
+        display: block;
+        min-width: 167px;
+        min-height: 41px;
+        width: 50%;
+        .input4{
+            padding-right: 16px;
+            .text-input4{
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                padding: 1px 8px;
+                input{
+                    text-rendering: auto;
+                    color: fieldtext;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    line-height: normal;
+                    text-transform: none;
+                    text-indent: 0px;
+                    text-shadow: none;
+                    display: inline-block;
+                    appearance: logical;
+                    cursor: text;
+                    background-color: field;
+                    margin: 0em;
+                    input[type=text]{
+                        width: 100%;
+                        text-align: left;
+                    }
+                    input[type="text" i]{
+                        padding-block: 1px;
+                        padding-inline: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .group-hidden3{
+        float: left;
+        width: 32%;
+        min-width: 160px;
+        margin: 0 0 8px 1%;
+        color: #555;
+        font-size: 11px;
+        padding-left: 5px;
+        vertical-align: middle;
+        position: relative;
+        @media(max-width: 1056px){
+            .group-hidden3{
+                display: none  ! important;
+            }
+        }
+        .hidden3{
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            .hidden-word3{
+                color: #666;
+                font-family: monospace;
+                font-size: 11px;
+                white-space: pre;
+            }
+        }
+    }
+}
+.group6{
+    clear: both;
+    .space3{
+        float: left;
+        display: block;
+        min-width: 167px;
+        width: 16%;
+        height: 42px;
+        color: #222;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .group-submit{
+        float: left;
+        display: block;
+        min-width: 167px;
+        min-height: 41px;
+        width: 50%;
+        text-align: right;
+        #submit-button{
+            text-rendering: auto;
+            color: fieldtext;
+            letter-spacing: normal;
+            word-spacing: normal;
+            line-height: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            text-align: start;
+            -webkit-rti-ordering: logical;
+            margin: 0em;
+            input[type="hidden" i]{
+                appearance: none;
+                background-color: initial;
+                cursor: default;
+                display: none ! important;
+                padding: initial;
+                border: initial;
+            }
+        }
+        .submit-button-action{
+            float: right;
+            box-shadow: none;
+            background-color: #4d90fe;
+            background-image: 
+            -webkit-linear-gradient(top, #4d90fe, #4787ed);
+            border: 1px solid #3079ed;
+            color: #fff;
+            padding: 0 12px;
+            margin: 10px 0; 
+        }
+        .submit-buttonj{
+            border-radius: 2px;
+            cursor: default;
+            font-size: 11px;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            outline: 0;
         }
     }
 }
